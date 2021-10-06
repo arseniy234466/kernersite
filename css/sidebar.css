@@ -1,12 +1,15 @@
 .sidebar{
-    display: flex;
+    display: block;
     align-items: center ;
-    flex-direction: row;
-    margin: 20px;
-    background: #c80000;
+    flex-direction: column;
+    margin: 80px;
+    background: #c80021;
     height: 50px;
     width: 1000px;
     font-size: 18pt;
-
+    padding: 10px;
 }
+
+
+
 
