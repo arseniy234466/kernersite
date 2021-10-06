@@ -1,0 +1,88 @@
+
+
+header{
+    margin-top: 5px;
+    font-family: Arial ,  sans-serif;
+    color: black;
+: ;
+}
+.dws-menu{
+    margin: 0;
+    padding: 0;
+
+}
+
+.dws-menu ul,
+.dws-menu ol{
+    list-style: none;
+}
+
+.dws-menu > ul{
+    display: flex;
+    justify-content: left;
+}
+
+.dws-menu > ul li a{
+    display: block;
+    padding: 15px 30px 15px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    text-decoration-color: springgreen;
+}
+
+.dws-menu >ul li {
+    position: relative;
+    border-right: 1px solid ;
+}
+
+.dws-menu > ul li > a i.fa{
+    top: 15px;
+    left: 12px;
+    font-size: 18px;
+    color: aqua;
+}
+
+.dws-menu > ul li:first-child{
+    border-left: 1px solid ;
+}
+
+.dws-menu > ul li:last-child{
+    border-right: 1px solid ;
+}
+
+.dws-menu li a:hover{
+    background: #c80000;
+    color: black;
+    box-shadow: 1px 5px 10px -5px firebrick;
+    transition: all 0.3s ease;
+}
+
+.dws-menu li ul {
+    position: absolute;
+    min-width: 150px;
+    display: none;
+}
+
+.dws-menu li > ul li{
+    border: 1px solid darkgray;
+}
+
+.dws-menu li > ul li a{
+    padding: 10px;
+    text-transform: none;
+    background: black ;
+}
+
+.dws-menu li:hover > ul {
+    display: block;
+}
+
+body{
+    background: #000001;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
