@@ -89,6 +89,24 @@ a {
 
 
 .admins {
-    display: flex;
+    display: grid;
+   grid-column: 2/3;
+    background-color: darkgray;
+}
 
+.aside {
+    grid-row: 2/4;
+    background-color: darkgray;
+    width: 200px;
+    height: 25%;
+}
+
+.main {
+    grid-column: 2/3;
+    background-color: darkgray;
+}
+
+.footer {
+    grid-column: 2/3;
+    background-color: darkgray;
 }
