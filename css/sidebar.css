@@ -1,15 +1,19 @@
-.sidebar{
-    display: block;
-    align-items: center ;
-    flex-direction: column;
-    margin: 80px;
-    background: #c80021;
-    height: 50px;
-    width: 1000px;
-    font-size: 18pt;
-    padding: 10px;
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+.wrapper > div{
+    padding: 1em;
+    background-color: #4129ff;
 }
 
+.wrapper > div.light {
+    padding: 1em;
+    background-color: #ff1109;
+}
 
 
 
