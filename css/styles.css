@@ -96,7 +96,7 @@ a {
 
 .aside {
     grid-row: 2/4;
-    background-color: darkgray;
+    background: darkgray;
     width: 200px;
     height: 25%;
 }
