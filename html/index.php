@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Главная страница</title>
+
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/text.css">
     <link rel="stylesheet" href="/css/preloader.scss">
     <link rel="stylesheet" href="/css/auth.css">
-    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="../css/sidebar.css">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script type="javascript" src="/main.js"></script>
-
+    <style>
+        body{
+            background: #97cf41;
+        }
+    </style>
 </head>
 <body>
 <div id="cube-loader">
@@ -27,13 +32,13 @@
 <header>
     <nav class ="dws-menu">
         <ul>
-            <li><a href="index.html">Главная</a></li>
+            <li><a href="#">Главная</a></li>
             <li><a href="#">Пользователи</a>
                 <ul>
-                    <li><a href="html/list2.html">Администраторы</a></li>
+                    <li><a href="list2.html">Администраторы</a></li>
                     <li><a href="">Команда проекта</a></li>
-                    <li><a href="html/topmoney.html">Топ по деньгам</a></li>
-                    <li><a href="html/topmessage.html">Топ по сообщениям</a></li>
+                    <li><a href="topmoney.html">Топ по деньгам</a></li>
+                    <li><a href="topmessage.html">Топ по сообщениям</a></li>
                     <li><a href="#">Именинники</a></li>
                 </ul>
             </li>
